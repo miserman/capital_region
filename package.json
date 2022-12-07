@@ -1,0 +1,27 @@
+{
+  "name": "capital_region",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "latest",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "serverless-http": "^2.7.0"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "trailingComma": "es5"
+  },
+  "author": "",
+  "license": "ISC"
+}
