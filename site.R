@@ -121,7 +121,7 @@ page_menu(
   ),
   input_combobox(
     "Variable", options = "variables", group_feature = "category",
-    default = "avg_down_using_devices", depends = "shapes",
+    default = "avg_up_using_devices", depends = "shapes",
     id = "selected_variable"
   ),
   wraps = c("col-2", "col", "col"),
